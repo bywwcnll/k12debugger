@@ -1,0 +1,22 @@
+{
+  "name": "k12debugger",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "debugger for k12 development",
+  "keywords": [
+    "k12debugger"
+  ],
+  "author": "bywwcnll <2233540467@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bywwcnll/k12debugger"
+  },
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
