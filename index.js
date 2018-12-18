@@ -27,9 +27,9 @@ module.exports = module.exports.default = function (options) {
   }
   if (show) {
     Promise.all([
-      loadScript('//cdn.jsdelivr.net/npm/eruda'),
-      loadScript('//cdn.jsdelivr.net/npm/eruda-vconsole'),
-      loadScript('//cdn.jsdelivr.net/npm/eruda-dom')
+      loadScript('//cdn.jsdelivr.net/npm/eruda@latest'),
+      loadScript('//cdn.jsdelivr.net/npm/eruda-vconsole@latest'),
+      loadScript('//cdn.jsdelivr.net/npm/eruda-dom@latest')
     ]).then(function () {
       window.eruda.init(options)
       window.eruda.add(window.erudaDom)
