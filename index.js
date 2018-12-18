@@ -21,7 +21,7 @@ var loadScript = function (url) {
 
 module.exports = module.exports.default = function (options) {
   options = options || {}
-  let show = /demo.wysource.com.cn/g.test(window.HOST) && process.env.NODE_ENV === 'production'
+  let show = /demo.wysource.com.cn/g.test(window.HOST)
   if (typeof options.customShow !== 'undefined' && options.customShow !== null) {
     show = options.customShow
   }
