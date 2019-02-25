@@ -1,6 +1,6 @@
 {
   "name": "k12debugger",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "description": "debugger for k12 development",
   "keywords": [

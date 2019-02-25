@@ -1,6 +1,6 @@
 var loadScript = function (url) {
   return new Promise(function (resolve, reject) {
-    let script = window.document.createElement('script')
+    var script = window.document.createElement('script')
     script.type = 'text/javascript'
     if (script.readyState) {
       script.onreadystatechange = function () {
@@ -21,7 +21,7 @@ var loadScript = function (url) {
 
 module.exports = module.exports.default = function (options) {
   options = options || {}
-  let show = /demo.wysource.com.cn/g.test(window.HOST)
+  var show = /demo.wysource.com.cn/g.test(window.HOST)
   if (typeof options.customShow !== 'undefined' && options.customShow !== null) {
     show = options.customShow
   }
